@@ -1,0 +1,12 @@
+header {
+    background-color: rgb(128, 128, 128,0.5);
+}
+
+.contactitems a {
+    color: black;
+    background-color: rgb(221, 221, 221);
+}
+
+.contactitems a:hover {
+    background-color: #ccc;
+}
