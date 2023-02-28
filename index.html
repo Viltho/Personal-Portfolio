@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/headerfont.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
@@ -23,84 +24,112 @@
         </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Career</li>
-                <li>Contact Me</li>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>About Me</li>
+                </a>
+                <a href="">
+                    <li>Career</li>
+                </a>
+                <a href="">
+                    <li>Contact Me</li>
+                </a>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
+        <section id="s-one" class="ctainer aboutmebox">
             <section class="aboutmeboxpic">
-                <span>About Me:</span>
+                <span style="font-weight: bold;">About Me:</span>
                 <img src="./assets/293291740_10218740048966501_1959185343416288050_n.jpg" alt="">
             </section>
             <section class="textinsection">
-                <div>
-                    <p>Hello, and welcome, to my portfolio.</p>
-                    <p>I am a software Engineer based in Zarqa, Jordan. I am proficient in both Frontend development and
-                        Backend development. I have extensive knowledge in HTML, CSS, JavaScript, Node.JS. I am a certified
-                        Data Scientist with numerous certifications including DS4A - Data Science for All and UniDeb -
-                        Logistics Management. As a Software Engineer, I aspire to help bring creativity into my projects as
-                        I bring them to life and demonstrate my commitment to developing world-class software solutions for
-                        your company.</p>
-                </div>
+                <p>As a Software Engineer hailing from Zarqa, Jordan, I specialize in both Frontend and Backend
+                    development. My expertise includes a wide range of programming languages such as HTML, CSS,
+                    JavaScript, and Node.JS. In addition, I hold various certifications in Data Science, including DS4A
+                    - Data Science for All and UniDeb - Logistics Management.</p>
+                    <br>
+                    <p>ultimate goal as a Software Engineer is to infuse creativity into every project I undertake,
+                    bringing it to life with innovative ideas and world-class solutions. With a passion for developing
+                    top-notch software solutions, I am confident that I can help your company achieve its goals and
+                    deliver exceptional results.</p>
             </section>
-            <div class="skillbars">
-                <p>HTML</p>
-                <div class="container">
-                  <div class="skills html">90%</div>
+        </section>
+
+        <section id="s-two" class="ctainer myskills">
+            <div class="container">
+                <div class="JS">
+
                 </div>
-                
-                <p>CSS</p>
-                <div class="container">
-                  <div class="skills css">80%</div>
-                </div>
-                
-                <p>JavaScript</p>
-                <div class="container">
-                  <div class="skills js">65%</div>
+                <div class="bar one">
+                    <div>95%</div>
                 </div>
             </div>
-        </div>
-        <section class="contactitems">
+            <div class="container">
+                <div class="HTML">
+
+                </div>
+                <div class="bar two">
+                    <div>97%</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="CSS">
+
+                </div>
+                <div class="bar three">
+                    <div>93%</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="NODEJS">
+
+                </div>
+                <div class="bar four">
+                    <div>88%</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="EXCEL">
+
+                </div>
+                <div class="bar five">
+                    <div>95%</div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="s-three" class="ctainer freelancingandwork">
+            <p style="font-weight: bold;">Freelancing in Data Science</p>
+            <p>Currently working on creating Analytical Financial systems using Excel & Google Sheets</p>
+            <span>Clients: 1</span>
+            <img src="https://s01.flagcounter.com/mini/ua5q/bg_FFFFFF/txt_000000/border_CCCCCC/flags_0/">
+        </section>     
+
+        <section id="s-four" class="ctainer contactitems">
             <a href="https://discord.com/users/192598326141648896"><img src="./assets/discord.png"
                     alt="">Discord/Viltho</a>
             <a href="https://github.com/viltho"><img src="./assets/github.png" alt="">GitHub/Viltho</a>
             <a href="https://www.linkedin.com/in/a-a-h/"><img src="./assets/linkedin.png" alt="">LinkedIn</a>
         </section>
-
-        <section>
-            <button type="button" class="collapsible">My Career</button>
-            <div class="content">
-                <ul>
-                    <!-- <li style="font-weight: bold;">University</li>
-                    <li>X - Jun 2018, Civil Engineering, Bachelor's Major ✅</li>
-                    <li style="font-weight: bold;">Customer Relations Experience</li>
-                    <li>Dec 2019 - Jul 2022, 3 high ranked companies one in Hungary and two in Jordan ✅</li>
-                    <li style="font-weight: bold;">Data Science 4 all Cohort</li>
-                    <li class="">Oct 2022 - Dec 2022, <a
-                            href="https://www.correlation-one.com/data-science-for-all-jordan" target="_blank"
-                            rel="noopener noreferrer">Correlation One</a> ✅</li>
-                    <li style="font-weight: bold;">Python Web Development</li>
-                    <li>Jan 2023 - present, Code Fellows - Powered by Digiskills</li>
-                    <li style="font-weight: bold;">Own Project</li>
-                    <li>Online system - Soon</li> -->
-                    <hr>
-                    <p style="font-weight: bold;">Freelancing in Data Science</p>
-                    <p>Currently working on creating Analytical Financial systems using Excel & Google Sheets</p>
-                    <span>Clients: 1</span>
-                </ul>
-
-            </div>
-        </section>
-        <a href="https://info.flagcounter.com/ua5q"><img src="https://s01.flagcounter.com/mini/ua5q/bg_FFFFFF/txt_000000/border_CCCCCC/flags_0/" alt="Flag Counter" border="0"></a>
+        
     </main>
+
     <footer>
         <p>&copy; Copyrights 2023, This is a personal Portfolio for Viltho.</p>
     </footer>
     <script src="./app/app.js"></script>
+    <script src="./app/scrollify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"
+        integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
 </body>
 
 </html>
