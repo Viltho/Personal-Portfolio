@@ -3440,6 +3440,19 @@ input, select, textarea {
 				display: none;
 			}
 
+			#banner > .inner header img {
+				width: 200px;
+				border-radius: 15px;
+			}
+
+			#banner > .inner header section {
+				display: flex;
+			}
+
+			#banner > .inner header section p {
+				padding-left: 20px;
+			}
+
 			#banner > .inner header {
 				width: auto;
 			}
